@@ -84,8 +84,8 @@ h3.subtitle{font-size:20px;font-weight:600;color:var(--ink);line-height:1.4}
 .header.scrolled{box-shadow:0 1px 12px rgba(15,23,42,.06)}
 .header-inner{max-width:var(--container);margin:0 auto;padding:0 24px;height:70px;display:flex;align-items:center;justify-content:space-between;gap:24px}
 .logo{display:flex;align-items:center;gap:10px;font-size:20px;font-weight:800;color:var(--ink);letter-spacing:-.02em}
-.logo-mark{width:34px;height:34px;border-radius:9px;background:linear-gradient(135deg,var(--blue),var(--blue-darker));display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:18px;box-shadow:var(--shadow-blue)}
-.logo-img{width:34px;height:34px;border-radius:9px;object-fit:cover;box-shadow:var(--shadow-blue)}
+.logo-mark{width:34px;height:34px;border-radius:6px;background:linear-gradient(135deg,var(--blue),var(--blue-darker));display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:18px;box-shadow:var(--shadow-blue)}
+.logo-img{width:34px;height:34px;border-radius:0;object-fit:cover;box-shadow:var(--shadow-blue)}
 .nav-links{display:flex;align-items:center;gap:4px}
 .nav-link{
   font-size:15px;font-weight:500;color:var(--text);padding:8px 16px;border-radius:999px;
