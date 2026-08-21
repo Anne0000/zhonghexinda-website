@@ -1,0 +1,35 @@
+/* ============================================================
+   DESIGN SYSTEM - CSS Variables
+   颜色、字体、间距、阴影等设计令牌
+   ============================================================ */
+
+:root{
+  --blue:#2563EB;
+  --blue-dark:#1D4ED8;
+  --blue-darker:#1E40AF;
+  --blue-light:#DBEAFE;
+  --blue-lighter:#EFF6FF;
+  --blue-50:#EFF6FF;
+  --blue-100:#DBEAFE;
+  --blue-200:#BFDBFE;
+  --ink:#0F172A;
+  --text:#1E293B;
+  --muted:#64748B;
+  --muted-light:#94A3B8;
+  --line:#E2E8F0;
+  --bg:#FFFFFF;
+  --bg-soft:#F8FAFC;
+  --bg-gray:#F1F5F9;
+  --green:#10B981;
+  --amber:#F59E0B;
+  --radius:16px;
+  --radius-sm:10px;
+  --radius-lg:24px;
+  --shadow-sm:0 1px 2px rgba(15,23,42,.04),0 1px 3px rgba(15,23,42,.06);
+  --shadow:0 4px 6px -1px rgba(15,23,42,.06),0 2px 4px -2px rgba(15,23,42,.05);
+  --shadow-md:0 10px 15px -3px rgba(15,23,42,.08),0 4px 6px -4px rgba(15,23,42,.05);
+  --shadow-lg:0 20px 25px -5px rgba(15,23,42,.1),0 8px 10px -6px rgba(15,23,42,.06);
+  --shadow-blue:0 12px 28px -8px rgba(37,99,235,.35);
+  --container:1200px;
+  --font:"Inter","Noto Sans CJK SC","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+}
