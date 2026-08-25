@@ -2,22 +2,6 @@
    交互逻辑
    ============================================================ */
 
-(async () => {
-  try {
-    const client = await import('/@vite/client');
-    const hmr = client.createHotContext('hmr-handler/fake.js');
-    hmr.on('vite:afterUpdate', window['__ICUBE_WEBVIEW_HMR_CALLBACK_1787195245000']);
-  } catch {}
-})();
-
-(async () => {
-  try {
-    const client = await import('/@vite/client');
-    const hmr = client.createHotContext('hmr-handler/fake.js');
-    hmr.on('vite:afterUpdate', window['__ICUBE_WEBVIEW_HMR_CALLBACK_1787195245006']);
-  } catch {}
-})();
-
 // Page navigation
 function goPage(page){
   document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
