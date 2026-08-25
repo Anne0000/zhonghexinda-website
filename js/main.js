@@ -98,7 +98,7 @@ window.addEventListener('load',function(){
 });
 
 // Lightbox
-function openLightbox(title,desc,date,valid,code){
+function openLightbox(title,desc,date,valid,code,image){
   document.getElementById('lbTitle').textContent=title;
   document.getElementById('lbDesc').textContent=desc+'。该证书由权威机构审核颁发，代表南京众合信达在相关领域的专业资质与合规经营能力。';
   document.getElementById('lbDate').textContent=date;
@@ -109,7 +109,15 @@ function openLightbox(title,desc,date,valid,code){
   const icons={'高新技术企业':'🏅','专精特新':'⭐','科技型':'🔬','ISO 9001':'📋','ISO 27001':'🔒','ISO 20000':'🖥','ISO 14001':'🌱','管理咨询机构':'📄','工程造价':'📐','人力资源':'👥','发明专利':'⚙','实用新型':'🔧','软件著作权':'💾','商标注册':'™','中国咨询行业':'🏆','年度最佳':'🥇','优秀服务商':'🎖','创新企业奖':'💡','中国企联会员':'🏛','管理咨询协会':'🤝','中小企业协会':'🏢'};
   let icon='🏅';
   for(const key in icons){ if(title.includes(key)){icon=icons[key];break;} }
-  document.getElementById('lbPreview').textContent=icon;
+  const preview=document.getElementById('lbPreview');
+  if(image){
+    const imageEl=document.createElement('img');
+    imageEl.src=image;
+    imageEl.alt=title;
+    preview.replaceChildren(imageEl);
+  }else{
+    preview.textContent=icon;
+  }
   document.getElementById('lightbox').classList.add('show');
   document.body.style.overflow='hidden';
 }

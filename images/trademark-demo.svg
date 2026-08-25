@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 502">
+  <rect width="742" height="502" fill="#fffaff"/>
+  <rect x="18" y="18" width="706" height="466" rx="8" fill="none" stroke="#be185d" stroke-width="3"/>
+  <text x="371" y="130" text-anchor="middle" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="42" font-weight="700" fill="#831843">注册商标证书</text>
+  <text x="371" y="170" text-anchor="middle" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="18" fill="#9d174d">品牌标识登记证明 · 演示样张</text>
+  <circle cx="371" cy="260" r="68" fill="#fce7f3" stroke="#be185d" stroke-width="4"/>
+  <text x="371" y="278" text-anchor="middle" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="56" font-weight="700" fill="#be185d">众</text>
+  <text x="90" y="370" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="18" fill="#4b5563">商标权利人：南京众合信达服务咨询有限公司</text>
+  <text x="90" y="405" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="18" fill="#4b5563">注册号：DEMO-TM-2024-001</text>
+  <text x="620" y="455" text-anchor="middle" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="22" font-weight="700" fill="#be185d">演示样张</text>
+</svg>

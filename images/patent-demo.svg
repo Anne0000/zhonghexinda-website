@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 502">
+  <rect width="742" height="502" fill="#f8fff9"/>
+  <rect x="18" y="18" width="706" height="466" rx="8" fill="none" stroke="#15803d" stroke-width="3"/>
+  <text x="371" y="130" text-anchor="middle" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="40" font-weight="700" fill="#14532d">实用新型专利证书</text>
+  <text x="371" y="170" text-anchor="middle" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="18" fill="#166534">知识产权证明 · 演示样张</text>
+  <rect x="285" y="205" width="172" height="105" rx="14" fill="#dcfce7" stroke="#15803d" stroke-width="4"/>
+  <path d="M320 276l30-36 26 24 46-57" fill="none" stroke="#15803d" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="90" y="370" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="18" fill="#334155">专利权人：南京众合信达服务咨询有限公司</text>
+  <text x="90" y="405" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="18" fill="#334155">专利号：DEMO-PAT-2024-001</text>
+  <text x="620" y="455" text-anchor="middle" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="22" font-weight="700" fill="#15803d">演示样张</text>
+</svg>

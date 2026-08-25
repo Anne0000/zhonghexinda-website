@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 742 502">
+  <rect width="742" height="502" fill="#fbfdff"/>
+  <rect x="18" y="18" width="706" height="466" rx="8" fill="none" stroke="#2563eb" stroke-width="3"/>
+  <path d="M58 72h626M58 430h626" stroke="#bfdbfe" stroke-width="2"/>
+  <circle cx="371" cy="118" r="38" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+  <path d="M371 92v52M345 118h52" stroke="#2563eb" stroke-width="7" stroke-linecap="round"/>
+  <text x="371" y="214" text-anchor="middle" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="40" font-weight="700" fill="#0f172a">科技型中小企业</text>
+  <text x="371" y="252" text-anchor="middle" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="18" fill="#64748b">入库认定证书 · 演示样张</text>
+  <text x="80" y="320" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="18" fill="#334155">企业名称：南京众合信达服务咨询有限公司</text>
+  <text x="80" y="354" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="18" fill="#334155">证书编号：DEMO-KJ-2024-001</text>
+  <text x="80" y="388" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="18" fill="#334155">认定年度：2024 年</text>
+  <text x="610" y="450" text-anchor="middle" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="22" font-weight="700" fill="#2563eb">演示样张</text>
+</svg>
