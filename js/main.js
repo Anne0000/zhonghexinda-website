@@ -8,7 +8,8 @@ function goPage(page){
   const target = document.getElementById('page-'+page);
   if(target){ target.classList.add('active'); }
   document.querySelectorAll('.nav-link').forEach(l=>l.classList.remove('active'));
-  const navLink = document.querySelector('.nav-link[data-page="'+page+'"]');
+  const navPage = (page.indexOf('service-')===0 || page.indexOf('case-')===0) ? 'services' : page;
+  const navLink = document.querySelector('.nav-link[data-page="'+navPage+'"]');
   if(navLink){ navLink.classList.add('active'); }
   window.scrollTo({top:0,behavior:'instant'});
   // close mobile nav if open
