@@ -407,6 +407,18 @@ h3.subtitle{font-size:20px;font-weight:600;color:var(--ink);line-height:1.4}
 .service-type-tags span{padding:6px 10px;background:var(--bg-soft);border:1px solid var(--line);border-radius:6px;color:var(--muted);font-size:12px;line-height:1.2}
 .service-type-link{margin-top:auto;min-height:44px;padding:0;color:var(--blue);font-size:14px;font-weight:700;cursor:pointer;display:inline-flex;align-items:center;gap:4px}
 .service-type-link span{font-size:20px;margin-left:4px}
+.service-guide{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.guide-card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:24px;box-shadow:var(--shadow-sm);transition:all .25s ease}
+.guide-card:hover{border-color:var(--blue-200);box-shadow:var(--shadow-md);transform:translateY(-2px)}
+.guide-card h4{font-size:17px;line-height:1.45;color:var(--ink);margin-bottom:10px}
+.guide-card .guide-kind{display:inline-flex;padding:4px 9px;border-radius:999px;background:var(--blue-50);color:var(--blue);font-size:12px;font-weight:600;margin-bottom:12px}
+.guide-card p{font-size:13px;color:var(--muted);line-height:1.7;margin-top:8px}
+.guide-card .guide-label{display:block;font-size:12px;font-weight:700;color:var(--ink);margin-top:14px;margin-bottom:2px}
+.guide-points{display:flex;flex-direction:column;gap:6px;margin:8px 0 0;padding:0;list-style:none;counter-reset:guide-point}
+.guide-points li{position:relative;padding-left:22px;font-size:13px;color:var(--muted);line-height:1.65;counter-increment:guide-point}
+.guide-points li::before{content:counter(guide-point);position:absolute;left:0;top:2px;width:16px;height:16px;border-radius:50%;background:var(--blue-50);color:var(--blue);font-size:11px;font-weight:700;line-height:16px;text-align:center}
+.guide-card .guide-meta{display:flex;flex-wrap:wrap;gap:8px 14px;padding-top:14px;margin-top:14px;border-top:1px solid var(--line);font-size:12px;color:var(--muted)}
+.guide-card .guide-meta strong{color:var(--text);font-weight:600}
 .case-step{width:34px;height:34px;background:rgba(255,255,255,.22);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;flex-shrink:0;backdrop-filter:blur(4px)}
 .case-adv-list{display:flex;flex-direction:column;gap:16px}
 .case-adv-list>div{display:flex;gap:12px;align-items:flex-start}
@@ -630,6 +642,7 @@ h3.subtitle{font-size:20px;font-weight:600;color:var(--ink);line-height:1.4}
   .hero-grid,.split,.contact-grid{grid-template-columns:1fr;gap:40px}
   .grid-4{grid-template-columns:repeat(2,1fr)}
   .service-type-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .service-guide{grid-template-columns:1fr}
   .ind-grid{grid-template-columns:repeat(2,1fr)}
   .ind-grid-3{grid-template-columns:repeat(2,1fr)}
   .split-timeline{grid-template-columns:1fr;gap:40px}
